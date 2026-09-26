@@ -50,8 +50,10 @@ Each naming convention is implemented by a dedicated converter VI.
 
 ## Requirements
 
-- LabVIEW
+- LabVIEW 2018 or later
 - Input text with words separated by spaces
+
+The implementation uses shift registers for string accumulation to maintain compatibility with LabVIEW 2018.
 
 ## Project Status
 
